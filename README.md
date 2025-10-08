@@ -36,7 +36,7 @@ chmod 454 start_chgrp_changeGroup.sh
 ls -l
 sudo chown root start_chgrp_changeGroup.sh
 ./start_chgrp_changeGroup.sh
-sudo chgrp group start_chgrp_changeGroup.sh
+sudo chgrp root start_chgrp_changeGroup.sh
 ls -l
 ./start_chgrp_changeGroup.sh</code></pre>
 
@@ -132,7 +132,7 @@ chmod 454 start_chgrp_changeGroup.sh
 ls -l
 sudo chown root start_chgrp_changeGroup.sh
 ./start_chgrp_changeGroup.sh
-sudo chgrp group start_chgrp_changeGroup.sh
+sudo chgrp root start_chgrp_changeGroup.sh
 ls -l
 ./start_chgrp_changeGroup.sh</code></pre>
 

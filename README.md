@@ -37,16 +37,7 @@
 
 
 <div class="wp-block-group">
-<pre class="wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/chgrp_changeGroup
-cd chgrp_changeGroup
-ls -l
-chmod 454 start_chgrp_changeGroup.sh
-ls -l
-sudo chown root start_chgrp_changeGroup.sh
-./start_chgrp_changeGroup.sh
-sudo chgrp root start_chgrp_changeGroup.sh
-ls -l
-./start_chgrp_changeGroup.sh</code></pre>
+<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/chgrp_changeGroupcd chgrp_changeGroupls -lchmod 454 start_chgrp_changeGroup.shls -lsudo chown root start_chgrp_changeGroup.sh./start_chgrp_changeGroup.shsudo chgrp root start_chgrp_changeGroup.shls -l./start_chgrp_changeGroup.sh</code></pre>
 
 
 
@@ -67,17 +58,7 @@ bash: ./start_chgrp_changeGroup.sh: Permission denied</code></pre>
 
 
 
-<pre class="wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>source ~/bashrc_folder/macports_alias
-git clone https://github.com/trygfmi/chgrp_changeGroup
-cd chgrp_changeGroup
-ls -l
-chmod 454 start_chgrp_changeGroup.sh
-ls -l
-sudo chown root start_chgrp_changeGroup.sh
-./start_chgrp_changeGroup.sh
-sudo chgrp group start_chgrp_changeGroup.sh
-ls -l
-./start_chgrp_changeGroup.sh</code></pre>
+<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>source ~/bashrc_folder/macports_aliasgit clone https://github.com/trygfmi/chgrp_changeGroupcd chgrp_changeGroupls -lchmod 454 start_chgrp_changeGroup.shls -lsudo chown root start_chgrp_changeGroup.sh./start_chgrp_changeGroup.shsudo chgrp group start_chgrp_changeGroup.shls -l./start_chgrp_changeGroup.sh</code></pre>
 
 
 
@@ -98,16 +79,7 @@ bash: ./start_chgrp_changeGroup.sh: Permission denied</code></pre>
 
 
 
-<pre class="wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/chgrp_changeGroup
-cd chgrp_changeGroup
-ls -l
-chmod 454 start_chgrp_changeGroup.sh
-ls -l
-sudo chown root start_chgrp_changeGroup.sh
-./start_chgrp_changeGroup.sh
-sudo chgrp root start_chgrp_changeGroup.sh
-ls -l
-./start_chgrp_changeGroup.sh</code></pre>
+<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/chgrp_changeGroupcd chgrp_changeGroupls -lchmod 454 start_chgrp_changeGroup.shls -lsudo chown root start_chgrp_changeGroup.sh./start_chgrp_changeGroup.shsudo chgrp root start_chgrp_changeGroup.shls -l./start_chgrp_changeGroup.sh</code></pre>
 
 
 
@@ -122,7 +94,7 @@ bash: ./start_chgrp_changeGroup.sh: Permission denied</code></pre>
 
 
 
-<pre class="wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>不可</code></pre>
+<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>不可</code></pre>
 
 
 
@@ -153,7 +125,7 @@ bash: ./start_chgrp_changeGroup.sh: Permission denied</code></pre>
 
 
 
-<pre class="wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git --version</code></pre>
+<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git --version</code></pre>
 
 
 
@@ -165,7 +137,7 @@ bash: ./start_chgrp_changeGroup.sh: Permission denied</code></pre>
 
 
 
-<pre class="wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>sudo apt install git</code></pre>
+<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>sudo apt install git</code></pre>
 
 
 
@@ -177,16 +149,7 @@ bash: ./start_chgrp_changeGroup.sh: Permission denied</code></pre>
 
 
 
-<pre class="wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/chgrp_changeGroup
-cd chgrp_changeGroup
-ls -l
-chmod 454 start_chgrp_changeGroup.sh
-ls -l
-sudo chown root start_chgrp_changeGroup.sh
-./start_chgrp_changeGroup.sh
-sudo chgrp root start_chgrp_changeGroup.sh
-ls -l
-./start_chgrp_changeGroup.sh</code></pre>
+<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/chgrp_changeGroupcd chgrp_changeGroupls -lchmod 454 start_chgrp_changeGroup.shls -lsudo chown root start_chgrp_changeGroup.sh./start_chgrp_changeGroup.shsudo chgrp root start_chgrp_changeGroup.shls -l./start_chgrp_changeGroup.sh</code></pre>
 
 
 
@@ -212,8 +175,7 @@ ls -l
 
 
 
-<pre class="wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>source ~/bashrc_folder/macports_alias
-git --version</code></pre>
+<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>source ~/bashrc_folder/macports_aliasgit --version</code></pre>
 
 
 
@@ -245,8 +207,7 @@ git --version</code></pre>
 
 
 
-<pre class="wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>sudo port install git
-echo 'alias git="/opt/local/bin/git"' &gt;&gt; ~/bashrc_folder/macports_alias</code></pre>
+<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>sudo port install gitecho 'alias git="/opt/local/bin/git"' >> ~/bashrc_folder/macports_alias</code></pre>
 
 
 
@@ -258,17 +219,7 @@ echo 'alias git="/opt/local/bin/git"' &gt;&gt; ~/bashrc_folder/macports_alias</c
 
 
 
-<pre class="wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>source ~/bashrc_folder/macports_alias
-git clone https://github.com/trygfmi/chgrp_changeGroup
-cd chgrp_changeGroup
-ls -l
-chmod 454 start_chgrp_changeGroup.sh
-ls -l
-sudo chown root start_chgrp_changeGroup.sh
-./start_chgrp_changeGroup.sh
-sudo chgrp group start_chgrp_changeGroup.sh
-ls -l
-./start_chgrp_changeGroup.sh</code></pre>
+<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>source ~/bashrc_folder/macports_aliasgit clone https://github.com/trygfmi/chgrp_changeGroupcd chgrp_changeGroupls -lchmod 454 start_chgrp_changeGroup.shls -lsudo chown root start_chgrp_changeGroup.sh./start_chgrp_changeGroup.shsudo chgrp group start_chgrp_changeGroup.shls -l./start_chgrp_changeGroup.sh</code></pre>
 
 
 
@@ -298,7 +249,7 @@ ls -l
 
 
 
-<pre class="wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git --version</code></pre>
+<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git --version</code></pre>
 
 
 
@@ -306,7 +257,7 @@ ls -l
 
 
 
-<pre class="wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>不可</code></pre>
+<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>不可</code></pre>
 
 
 
@@ -334,7 +285,7 @@ ls -l
 
 
 
-<pre class="wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>sudo apt install git</code></pre>
+<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>sudo apt install git</code></pre>
 
 
 
@@ -342,7 +293,7 @@ ls -l
 
 
 
-<pre class="wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>不可</code></pre>
+<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>不可</code></pre>
 
 
 
@@ -358,16 +309,7 @@ ls -l
 
 
 
-<pre class="wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/chgrp_changeGroup
-cd chgrp_changeGroup
-ls -l
-chmod 454 start_chgrp_changeGroup.sh
-ls -l
-sudo chown root start_chgrp_changeGroup.sh
-./start_chgrp_changeGroup.sh
-sudo chgrp root start_chgrp_changeGroup.sh
-ls -l
-./start_chgrp_changeGroup.sh</code></pre>
+<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/chgrp_changeGroupcd chgrp_changeGroupls -lchmod 454 start_chgrp_changeGroup.shls -lsudo chown root start_chgrp_changeGroup.sh./start_chgrp_changeGroup.shsudo chgrp root start_chgrp_changeGroup.shls -l./start_chgrp_changeGroup.sh</code></pre>
 
 
 
@@ -381,7 +323,7 @@ ls -l
 
 
 
-<pre class="wp-block-code has-cyan-bluish-gray-background-color has-background"><code>不可</code></pre>
+<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>不可</code></pre>
 
 
 
@@ -405,4 +347,3 @@ ls -l
 
 
 <p></p>
-

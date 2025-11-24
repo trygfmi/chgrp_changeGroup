@@ -4,7 +4,7 @@
 
 
 <div class="wp-block-group">
-<p>このリポジトリは、chgrpコマンドを実行してshell scriptのグループ名が変更されたときの挙動を検証します</p>
+<p>このリポジトリは、chgrpコマンドを実行してシェルスクリプトのグループ名が変更されたときの挙動を検証します</p>
 </div>
 
 
@@ -21,14 +21,12 @@
 
 
 
-<div class="wp-block-group">
 <h2 class="wp-block-heading">クイックスタート</h2>
 
 
 
 <div class="wp-block-group">
-<p>上記のコマンドをインストール済みの方は、以下のコマンドを実行してリポジトリからダウンロード後、ディレクトリを移動し、chgrpコマンドを実行してshell scriptの挙動を確認してください</p>
-</div>
+<p>上記のコマンドをインストール済みの方は、以下のコマンドを実行してリポジトリからダウンロード後、ディレクトリを移動し、chgrpコマンドを実行してシェルスクリプトの挙動を確認してください</p>
 
 
 
@@ -98,6 +96,7 @@ bash: ./start_chgrp_changeGroup.sh: Permission denied</code></pre>
 
 
 
+<div class="wp-block-group">
 <pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/chgrp_changeGroup
 cd chgrp_changeGroup
 ls -l
@@ -115,6 +114,7 @@ ls -l
 <pre class="wp-block-code has-background" style="background-color:#ffeeee"><code>hello chgrp command world
 bash: ./start_chgrp_changeGroup.sh: Permission denied</code></pre>
 </details>
+</div>
 
 
 
@@ -122,6 +122,7 @@ bash: ./start_chgrp_changeGroup.sh: Permission denied</code></pre>
 
 
 
+<div class="wp-block-group">
 <pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>不可</code></pre>
 
 
@@ -129,6 +130,7 @@ bash: ./start_chgrp_changeGroup.sh: Permission denied</code></pre>
 <details class="wp-block-details"><summary>出力結果</summary>
 <pre class="wp-block-code has-background" style="background-color:#ffeeee"><code>不可</code></pre>
 </details>
+</div>
 </div>
 </div>
 
@@ -143,17 +145,18 @@ bash: ./start_chgrp_changeGroup.sh: Permission denied</code></pre>
 
 
 
-<div class="wp-block-group">
 <details class="wp-block-details"><summary>クリックして詳細を開く</summary>
 <h4 class="wp-block-heading">事前確認</h4>
 
 
 
+<div class="wp-block-group">
 <p>以下のコマンドを端末に打ち込んでcommand not foundが出なければokです</p>
 
 
 
 <pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git --version</code></pre>
+</div>
 
 
 
@@ -161,11 +164,13 @@ bash: ./start_chgrp_changeGroup.sh: Permission denied</code></pre>
 
 
 
+<div class="wp-block-group">
 <p>端末でcommand not foundが出たコマンドを以下のコマンドでインストールしてください</p>
 
 
 
 <pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>sudo apt install git</code></pre>
+</div>
 
 
 
@@ -173,6 +178,7 @@ bash: ./start_chgrp_changeGroup.sh: Permission denied</code></pre>
 
 
 
+<div class="wp-block-group">
 <p>以下のコマンドを実行することで詳細のような文字列が出力されるはずです</p>
 
 
@@ -191,10 +197,10 @@ ls -l
 
 
 <details class="wp-block-details"><summary>詳細</summary>
-<pre class="wp-block-code has-24292-eff-color has-text-color has-background has-1-125-rem-font-size" style="background-color:#ffeeee"><code>hello chgrp command world<br>bash: ./start_chgrp_changeGroup.sh: Permission denied</code></pre>
-</details>
+<p><pre class="wp-block-code has-24292-eff-color has-text-color has-background has-1-125-rem-font-size" style="background-color:#ffeeee"><code>hello chgrp command world<br>bash: ./start_chgrp_changeGroup.sh: Permission denied</code></pre></p>
 </details>
 </div>
+</details>
 
 
 
@@ -202,12 +208,12 @@ ls -l
 
 
 
-<div class="wp-block-group">
 <details class="wp-block-details"><summary>クリックして詳細を開く</summary>
 <h4 class="wp-block-heading">事前確認</h4>
 
 
 
+<div class="wp-block-group">
 <p>以下のコマンドをターミナルに打ち込んでcommand not foundが出なければokです</p>
 
 
@@ -234,6 +240,7 @@ git --version</code></pre>
 
 
 [![MacPortsでインストールしたコマンドのエイリアス設定](https://ss523971.stars.ne.jp/todo/wp-content/uploads/2025/10/thumbnail_macports2.png,)](https://ss523971.stars.ne.jp/todo/how-to-setup-macports-alias)
+</div>
 
 
 
@@ -241,12 +248,14 @@ git --version</code></pre>
 
 
 
+<div class="wp-block-group">
 <p>ターミナルでcommand not foundが出たコマンドを以下のコマンドでインストールしてエイリアスを設定してください</p>
 
 
 
 <pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>sudo port install git
 echo 'alias git="/opt/local/bin/git"' >> ~/bashrc_folder/macports_alias</code></pre>
+</div>
 
 
 
@@ -254,6 +263,7 @@ echo 'alias git="/opt/local/bin/git"' >> ~/bashrc_folder/macports_alias</code></
 
 
 
+<div class="wp-block-group">
 <p>以下のコマンドを実行することで詳細のような文字列が出力されるはずです</p>
 
 
@@ -273,10 +283,10 @@ ls -l
 
 
 <details class="wp-block-details"><summary>詳細</summary>
-<pre class="wp-block-code has-24292-eff-color has-text-color has-background has-1-125-rem-font-size" style="background-color:#ffeeee"><code>hello chgrp command world<br>bash: ./start_chgrp_changeGroup.sh: Permission denied</code></pre>
-</details>
+<p><pre class="wp-block-code has-24292-eff-color has-text-color has-background has-1-125-rem-font-size" style="background-color:#ffeeee"><code>hello chgrp command world<br>bash: ./start_chgrp_changeGroup.sh: Permission denied</code></pre></p>
 </details>
 </div>
+</details>
 
 
 
@@ -284,12 +294,12 @@ ls -l
 
 
 
-<div class="wp-block-group">
 <details class="wp-block-details"><summary>クリックして詳細を開く</summary>
 <h4 class="wp-block-heading">事前確認</h4>
 
 
 
+<div class="wp-block-group">
 <p>以下のコマンドをプロンプトに打ち込んでcommand not foundが出なければokです</p>
 
 
@@ -319,6 +329,7 @@ ls -l
 
 
 [![](https://ss523971.stars.ne.jp/todo/wp-content/uploads/2025/10/msys2_thumbnail_1920_1080.png)](https://ss523971.stars.ne.jp/todo/how-to-install-msys2)
+</div>
 
 
 
@@ -326,6 +337,7 @@ ls -l
 
 
 
+<div class="wp-block-group">
 <p>プロンプトでcommand not foundが出たコマンドを以下のコマンドでインストールしてください</p>
 
 
@@ -343,6 +355,7 @@ ls -l
 
 
 <pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>不可</code></pre>
+</div>
 
 
 
@@ -350,6 +363,7 @@ ls -l
 
 
 
+<div class="wp-block-group">
 <p>以下のコマンドを実行することで詳細のような文字列が出力されるはずです</p>
 
 
@@ -358,6 +372,7 @@ ls -l
 
 
 
+<div class="wp-block-group">
 <pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/chgrp_changeGroup
 cd chgrp_changeGroup
 ls -l
@@ -372,8 +387,9 @@ ls -l
 
 
 <details class="wp-block-details"><summary>詳細</summary>
-<pre class="wp-block-code has-24292-eff-color has-text-color has-background has-1-125-rem-font-size" style="background-color:#ffeeee"><code>hello chgrp command world<br>bash: ./start_chgrp_changeGroup.sh: Permission denied</code></pre>
+<p><pre class="wp-block-code has-24292-eff-color has-text-color has-background has-1-125-rem-font-size" style="background-color:#ffeeee"><code>hello chgrp command world<br>bash: ./start_chgrp_changeGroup.sh: Permission denied</code></pre></p>
 </details>
+</div>
 
 
 
@@ -381,15 +397,17 @@ ls -l
 
 
 
+<div class="wp-block-group">
 <pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>不可</code></pre>
 
 
 
 <details class="wp-block-details"><summary>詳細</summary>
-<pre class="wp-block-code has-24292-eff-color has-text-color has-background has-1-125-rem-font-size" style="background-color:#ffeeee"><code>不可</code></pre>
-</details>
+<p><pre class="wp-block-code has-24292-eff-color has-text-color has-background has-1-125-rem-font-size" style="background-color:#ffeeee"><code>不可</code></pre></p>
 </details>
 </div>
+</div>
+</details>
 </div>
 
 
@@ -399,9 +417,5 @@ ls -l
 
 
 <div class="wp-block-group">
-<p>最初のshell scriptファイルの権限がr--r-xr--なので、ユーザー所有権では実行できないですが、グループ所有権の名前が一致して実行権限もあるので実行できるはずです。次のshell scriptではグループ所有権の名前を変更しているので、グループ権限で実行できなく、その他も実行権限が無いのでPermission deniedと出るはずです</p>
+<p>最初のシェルスクリプトファイルの権限がr--r-xr--なので、ユーザー所有権では実行できないですが、グループ所有権の名前が一致して実行権限もあるので実行できるはずです。次のシェルスクリプトではグループ所有権の名前を変更しているので、グループ権限で実行できなく、その他も実行権限が無いのでPermission deniedと出るはずです</p>
 </div>
-
-
-
-<p></p>
